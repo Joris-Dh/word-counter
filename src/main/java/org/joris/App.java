@@ -1,13 +1,10 @@
 package org.joris;
 
-/**
- * Hello world!
- *
- */
-public class App 
+public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        WordCounter wordCounter = new WordCounter("Hello world, hello there");
+        wordCounter.wordCounter();
     }
 }
